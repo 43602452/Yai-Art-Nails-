@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+body {
+  text-align: center;
+  font-family: sans-serif
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  background: url("img/fondo.png") no-repeat center center;
+  background-size: cover;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 63px;
+  background: #171717;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+.nav {
+  display: block;
+  padding: 23px 20px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.title {
+  margin-bottom: 40px;
+  font-size: 60px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+p {
+  margin-bottom: 40px;
+  font-size: 18px;
+}
+
+.sau {
+  padding: 30px;
+  background: #1f1f1f;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:10vh;
+  background:url(img/WhatsApp\ Image\ 2024-12-13\ at\ 15.06.12.jpeg) no-repeat center center;       
+  background-size: contain;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  background:url(img/Captura\ de\ pantalla\ 2024-12-12\ 134804.png) no-repeat center center;
+  background-size: cover;
+}
+
